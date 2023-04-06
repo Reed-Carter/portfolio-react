@@ -53,7 +53,7 @@ const About = () => {
         </div>
           <div className="portrait-pic">
           <div className='leaflet-container'>
-          <img src={selfPortrait}></img>
+          <img src={selfPortrait} alt='selfPortrait'></img>
           </div>
           </div>
         </div>
