@@ -9,7 +9,6 @@ import globalGasPrice from '../../assets/images/world_gas_price_gif.gif'
 import globalEmissionsETL from '../../assets/images/ETL_pipeline.png'
 import airportCode from '../../assets/images/airport_code.png'
 import WebpagePic from '../../assets/images/webpage.png'
-import { Link } from 'react-router-dom';
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -91,7 +90,7 @@ const Projects = () => {
             <div className="project">
               <h2>This Webpage</h2>
                 <img src={WebpagePic} alt="this webpage pic" />
-                <p>ETL pipeline was developed in order to normalize airline ticket information into facts and dimension tables and loads the tables into a BigQuery dataset</p>
+                <p>A webpage created using javascript to allow people to get to know me a bit better and see what kind of data engineering projects ive done</p>
                 <button className="flat-button">
                   <a href="https://github.com/Reed-Carter/portfolio-react" target="_blank" rel="noopener noreferrer">source code</a>
                 </button>
