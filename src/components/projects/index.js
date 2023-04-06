@@ -12,7 +12,6 @@ import WebpagePic from '../../assets/images/webpage_cropped.png'
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const form = useRef()
 
   useEffect(() => {
         
