@@ -32,10 +32,12 @@ const Home = () => {
         <span className={`${letterClass} _12`}>e</span>
         <span className={`${letterClass} _13`}>y</span>
         <span className={`${letterClass} _14`}>o</span>
-        <span className={`${letterClass} _15`}>o,</span>
+        <span className={`${letterClass} _15`}>o</span>
+        <span className={`${letterClass} _16`}>,</span>
         <br />
         <span className={`${letterClass} _16`}>I</span>
-        <span className={`${letterClass} _17`}>'m</span>
+        <span className={`${letterClass} _17`}>'</span>
+        <span className={`${letterClass} _18`}>m</span>
         <img src={LogoTitle} alt='developer' />
         <AnimatedLetters letterClass={letterClass}
         strArray={nameArray}
@@ -46,6 +48,8 @@ const Home = () => {
         idx={20} />
         </h1>
         <h2>Data Engineer / Data Scientist</h2>
+        <Link to="Projects" className='flat-button'>MY PROJECTS</Link>
+        <Link to="about" className='flat-button'>ABOUT ME</Link>
         <Link to="contact" className='flat-button'>CONTACT ME</Link>
       </div>
       <Logo /> 
