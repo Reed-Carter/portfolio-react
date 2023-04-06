@@ -49,9 +49,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            Please fill out the form to reach me and ill get back to you as soon as possible! If you feel like whenever you fill out forms like this they get lost in the depths of the nether space, I assure you this one is different...it goes to me!! I look forward to hearing from you! 
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -87,6 +85,9 @@ const Contact = () => {
                 </li>
               </ul>
             </form>
+            <p>
+              <span className='words'>Email:</span> reedandrew18@gmail.com <span className='words'>Phone:</span> +1 (609)-741-9934
+            </p>
           </div>
         </div>
         {/* <div className="info-map">
