@@ -49,7 +49,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Please fill out the form to reach me and ill get back to you as soon as possible! If you feel like whenever you fill out forms like this they get lost in the depths of the nether space, I assure you this one is different...it goes to me!! I look forward to hearing from you! 
+            Please fill out the form to reach me and ill get back to you as soon as possible! If you feel like whenever you fill out forms like this they get lost in the depths of the nether space, I assure you this one is different...it goes to me!! I look forward to hearing from you! <br />
+            <span className='words'>Email:</span> reedandrew18@gmail.com <span className='words'>Phone:</span> +1 (609)-741-9934
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -86,28 +87,26 @@ const Contact = () => {
               </ul>
             </form>
             <p>
-              <span className='words'>Email:</span> reedandrew18@gmail.com <span className='words'>Phone:</span> +1 (609)-741-9934
             </p>
           </div>
         </div>
-        {/* <div className="info-map">
-          Slobodan Gajić,
+        <div className="info-map">
+          Reed Carter,
           <br />
-          Serbia,
+          United States
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Portland, OR 97206 <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
-        </div> */}
-        {/* <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <span className='email'>reedandrew18@gmail.com</span>
+        </div> */
+        <div className="map-wrap">
+          <MapContainer center={[45.51713424696504, -122.67844021142173]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[45.51713424696504, -122.67844021142173]}>
+              <Popup>This is where Im hanging out these days:</Popup>
             </Marker>
           </MapContainer>
-        </div> */}
+        </div>
       </div>
       <Loader type="pacman" />
     </>

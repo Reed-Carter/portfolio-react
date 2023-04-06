@@ -14,7 +14,7 @@
 }
 
 .flat-button a:hover, .flat-button a:active {
-  color: #022c43; /* Example of different color on hover and active */
+  color: #022c43;
 }
 
 .flat-button {
@@ -39,6 +39,10 @@
   }
 }
 
+.text-description {
+  font-size: 16px;
+  margin-bottom: -15px;
+}
 .projects-page .flat-button {
   float: none;
   display: block;
@@ -48,9 +52,10 @@
 
 h2 {
   color: #ffd700;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: -3px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   font-family: sans-serif;
   letter-spacing: 3px;
   animation: fadeIn 1s 1.8s backwards;
@@ -59,19 +64,19 @@ h2 {
 .project-list {
   display: grid;
   grid-template-columns: repeat(3, 300px);
-  grid-gap: 20px;
+  grid-column-gap: 100px;
 }
 
 .project {
-  display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
 .project img {
-  max-width: 30%;
-  max-height: 30%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 @media screen and (max-width: 767px) {
