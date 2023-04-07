@@ -40,54 +40,56 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page">
-        <div className="text-zone">
-          <h1>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
-              idx={15}
-            />
-          </h1>
-          <p>
-            Please fill out the form or give me a call and ill get back to you as soon as possible! If you feel like whenever you fill out forms like this they get lost in the depths of the nether space, I assure you this one is different...it goes to me! I look forward to hearing from you! <br />
-            <span className='words'>Email:</span> reedandrew18@gmail.com <span className='words'>Phone:</span> +1 (609)-741-9934
-          </p>
-          <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
-              <ul>
-                <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
-                </li>
-                <li className="half">
-                  <input
-                    placeholder="Email"
-                    type="email"
-                    name="email"
-                    required
-                  />
-                </li>
-                <li>
-                  <input
-                    placeholder="Subject"
-                    type="text"
-                    name="subject"
-                    required
-                  />
-                </li>
-                <li>
-                  <textarea
-                    placeholder="Message"
-                    name="message"
-                    required
-                  ></textarea>
-                </li>
-                <li>
-                  <input type="submit" className="flat-button" value="SEND" />
-                </li>
-              </ul>
-            </form>
+        <div className='text-zone-contact'>
+          <div className="text-zone">
+            <h1>
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+                idx={15}
+              />
+            </h1>
             <p>
+              Please fill out the form or give me a call and ill get back to you as soon as possible! If you feel like whenever you fill out forms like this they get lost in the depths of the nether space, I assure you this one is different...it goes to me! I look forward to hearing from you! <br />
+              <span className='words'>Email:</span> reedandrew18@gmail.com <span className='words'>Phone:</span> +1 (609)-741-9934
             </p>
+            <div className="contact-form">
+              <form ref={form} onSubmit={sendEmail}>
+                <ul>
+                  <li className="half">
+                    <input placeholder="Name" type="text" name="name" required />
+                  </li>
+                  <li className="half">
+                    <input
+                      placeholder="Email"
+                      type="email"
+                      name="email"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <input
+                      placeholder="Subject"
+                      type="text"
+                      name="subject"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <textarea
+                      placeholder="Message"
+                      name="message"
+                      required
+                    ></textarea>
+                  </li>
+                  <li>
+                    <input type="submit" className="flat-button" value="SEND" />
+                  </li>
+                </ul>
+              </form>
+              <p>
+              </p>
+            </div>
           </div>
         </div>
         <div className="info-map">
