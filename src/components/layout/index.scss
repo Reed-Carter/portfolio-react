@@ -37,17 +37,10 @@
   animation-delay: 1s;
 }
 
-.about-page,
-.contact-page,
-.projects-page {
-  .text-zone {
-    position: absolute;
-    left: 10%;
-    transform: translateY(-50%);
-    width: 35%;
-    vertical-align: middle;
-    display: table-cell;
-    max-height: 90%;
+.container.about-page,
+.container.contact-page,
+.projects-page,
+.container.portfolio-page {
 
     h1 {
       font-size: 53px;
@@ -120,13 +113,21 @@
       }
 
     }
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 35%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
 
-  }
+}
+
 
   .text-animate-hover {
     &:hover {
       color: #fff;
     }
   }
-
 }

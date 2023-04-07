@@ -4,17 +4,17 @@ import Layout from './components/layout'
 import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/contact';
-import Projects from './components/projects';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
     <>
-      <Routes basename={process.env.PUBLIC_URL}>
+      <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path='about' element={<About />} />
-          <Route path='contact' element={<Contact />} />
-          <Route path='projects' element={<Projects />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/portfolio' element={<Portfolio />} />
         </Route>
       </Routes>
     </>

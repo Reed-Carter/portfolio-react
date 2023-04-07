@@ -1,7 +1,7 @@
 import './index.scss'
 import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser, faBriefcase } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser, faBriefcase, faSuitcase } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
@@ -10,14 +10,14 @@ const Sidebar = () => (
       <NavLink exact='true' activeclassname='active' to="/">
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
       </NavLink>
+      <NavLink exact='true' activeclassname='active' className='portfolio-link' to="/portfolio">
+        <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+      </NavLink>
       <NavLink exact='true' activeclassname='active' className='about-link' to="/about">
         <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
       </NavLink>
       <NavLink exact='true' activeclassname='active' className='contact-link' to="/contact">
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
-      </NavLink>
-      <NavLink exact='true' activeclassname='active' className='projects' to="/projects">
-        <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
       </NavLink>
     </nav>
     <ul>

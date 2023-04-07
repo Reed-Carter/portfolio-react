@@ -1,5 +1,16 @@
+.text-header {
+  color: #ffd700;
+  font-size: 13px;
+  margin-bottom: -17px;
+}
+
+.about-page{
+  overflow: auto;
+}
+
 .aboutText {
   font-size: 16px;
+  z-index: 10;
 }
 
 .portrait-pic {
@@ -8,6 +19,7 @@
   width: 53%;
   height: 115%;
   margin-top: 0.3%;
+  z-index: 0;
 }
 
 .leaflet-container {
@@ -18,6 +30,7 @@
   animation: backInRight 1s 1.2s;
   animation-fill-mode: forwards;
   background-color: #022c43;
+  z-index: 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -26,5 +39,6 @@
     margin: 0;
     width: 100%;
     height: 400px;
+    z-index: 0;
   }
 }

@@ -29,26 +29,29 @@ const About = () => {
               idx={15}
             />
           </h1>
+          <h2 className='text-header'>Introduction: </h2>
           <p className='aboutText'>
-            My name is Reed, and I'm not your typical data engineer. While I have a passion for coding and all things data-related, my journey to this field has been anything but conventional.
+            Hello, my name is Reed and I'm a data engineer who took an unconventional path to get here. Though I'm passionate about coding and everything data-related, my journey has been anything but typical.
           </p>
+          <h2 className='text-header'>The Peace Corps: </h2>
           <p className='aboutText' align="LEFT">
-            I started my career with a degree in Biology from Stockton University, but instead of heading straight into the workforce, I joined the Peace Corps. I spent two years in Tanzania, where I taught math and science at a secondary school and funded a girls' dormitory to give 40 girls access to a secondary school education. Oh, and did I mention that I learned Swahili during my time there? Nailed it.
+            After earning a degree in Biology from Stockton University, I decided to embark on an adventure by joining the Peace Corps. I spent two years in Tanzania, where I taught math and science at Kitandililo secondary school and was awarded/managed a grant to fund a dormitory for girls to access education. Immersing myself in the Tanzanian culture also gave me the perfect opportunity to learn Swahili, which has felt very similar to learning to code!
           </p>
+          <h2 className='text-header'>Graduate School and working as a wilderness guide: </h2>
           <p className='aboutText'>
-            After my Tanzanian adventure, I moved to Norway and studied for my Masters in Public Health. But the fun didn't stop there! I had the opportunity to travel to the Republic of Georgia to write my thesis, where I worked with their National Center for Disease Control to analyze their birth registry and determine if teen mothers were receiving adequate antenatal care.
+            Following my experience in Tanzania, I pursued a Master's degree in Public Health at The Arctic University of Norway - the most northern university in the world! During my degree, my thesis work took me to The Republic of Georgia, where I collaborated with their National Center for Disease Control to analyze their birth registry in order to determine if teenage mothers were recieving adequate antenatal care. I then moved to an island called Sitka in South East Alaska to work for a hospital in the behavioral health department where I was a wilderness guide for at-risk youth. 
           </p>
+          <h2 className='text-header'>The Pacific Crest Trail: </h2>
           <p className='aboutText'>
-            But wait, there's more! I then moved to Alaska to become a wilderness guide for at-risk youth. I took teens out on backpacking and kayaking expeditions in SouthEast Alaska, all while working in the behavioral health department of the SouthEast Alaska Regional Health Consortium. And if that wasn't enough, I hiked the Pacific Crest Trail - all 2,500 miles of it - which took me just about five months.
+            The real adventure began when I decided to hike the Pacific Crest Trail. This trail spans over 2,500 miles from the border of Mexico to Canada, passing through California, Oregon, and Washington. The trail offered a diverse range of landscapes, including deserts, mountains, and forests, and it took me about five months to complete!
           </p>
+          <h2 className='text-header'>Coding School: </h2>
           <p className='aboutText'>
-            After my trek, I decided to try something new and learn to code. So, I enrolled in a coding bootcamp to learn data engineering. It was the perfect opportunity to use my diverse set of skills and experiences while still changing course.
+            After my trek, I decided to try something new and learn to code. So, I enrolled in a coding bootcamp to learn data engineering. Since completing the coding bootcamp, I have honed my skills in data engineering, including proficiency in Python, SQL, Pandas, BigQuery, Airflow, Spark, Looker Studio, DBT, data modeling, data management, and data manipulation. I have also developed a solid foundation in statistical analysis, machine learning, and programming languages such as Python and SQL. I have worked on several projects, including the development of a weather forecasting machine learning model that created a 10-day forecast for various cities around the US, and an ETL pipeline that normalized airline ticket information using Python and Pandas to create a relational database in BigQuery.
           </p>
+          <h2 className='text-header'>Contact me: </h2>
           <p className='aboutText'>
-            Now, as a data engineer, I approach each problem with a creative and innovative mindset. I'm always eager to learn new technologies and tools to improve my craft, and my background in biology, public health, and wilderness guiding has given me a unique perspective that sets me apart from the rest.
-          </p>
-          <p className='aboutText'>
-            Thanks for taking the time to get to know me, and I can't wait to bring my unconventional background and diverse skillset to your team as a data engineer.
+            Thank you for taking the time to get to know me, and if you think theres an opportunitty for me to contribute to your team or project in anyway id love to hear about it!
           </p>
         </div>
           <div className="portrait-pic">

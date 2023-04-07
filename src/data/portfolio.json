@@ -1,0 +1,52 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/1/world_gas_price_gif.gif",
+      "title": "Global Cost of Living",
+      "description": "A team project where we used Python to analyze global cost of living using various metrics",
+      "url": "https://github.com/Reed-Carter/Emissions-by-Country"
+    },
+
+    {
+      "cover": "/portfolio/1/weather_visualization.gif",
+      "title": "Weather Visualizations",
+      "description": "Webscraping ETL using data from the US National Weather Service",
+      "url": "https://github.com/Reed-Carter/team-week3"
+    },
+
+    {
+      "cover": "/portfolio/1/airport_code.png",
+      "title": "Airline Relational Database Design",
+      "description": "ETL pipeline was developed in order to normalize airline ticket information into facts and dimension tables and loads the tables into a BigQuery dataset",
+      "url": "https://github.com/Reed-Carter/Airport_Data_Model"
+    },
+
+    {
+      "cover": "/portfolio/1/weather_forecaster.png",
+      "title": "Machine Learning Weather Forecaster",
+      "description": "Uses machine learning to predict the weather automated with airflow",
+      "url": "https://github.com/Reed-Carter/Weather_Forcaster"
+    },
+
+    {
+      "cover": "/portfolio/1/ETL_pipeline.png",
+      "title": "Global Emissions ETL",
+      "description": "ETL pipeline that downloads CSV's, transforms the data, uploads the data to BigQuery and creates visualizations in looker studio",
+      "url": "https://github.com/Reed-Carter/Emissions-by-Country"
+    },
+
+    {
+      "cover": "/portfolio/1/webpage_cropped.png",
+      "title": "Portfolio Webpage",
+      "description": "A webpage created using javascript to allow people to get to know me a bit better and see what kind of projects ive done",
+      "url": "https://github.com/Reed-Carter/portfolio-react"
+    },
+
+    {
+      "cover": "/portfolio/1/contact_csv.png",
+      "title": "Targeted Marketing ",
+      "description": "Compiled thousands of contacts to be used in a CRM system for targeted marketing purposes for the start-up SignedPic",
+      "url": "https://github.com/Reed-Carter/Internship-personal"
+    }
+  ]
+}
