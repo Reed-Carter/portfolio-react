@@ -1,33 +1,30 @@
-.logo-container {
-  z-index: -1;
-  width: 600px;
-  height: 609px;
-  opacity: 0;
+.solid-logo {
   position: absolute;
-  top: 0;
-  right: 15%;
-  bottom: 0;
-  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: 0;
   margin: auto;
+  width: 100%;
+  opacity: 0;
+  transform: rotateZ(30deg) !important;
+  z-index: 0;
+}
 
-
-  svg {
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    transform: rotateZ(30deg) !important;
-  }
+@media screen and (max-width: 1200px) {
 
   .solid-logo {
-    position: absolute;
+    position:initial;
     top: auto;
     right: auto;
-    bottom: auto;
+    bottom:auto;
     left: 0;
     margin: auto;
-    width: 100%;
+    width: 10%;
     opacity: 0;
     transform: rotateZ(30deg) !important;
     z-index: 1;
+
   }
+
 }
