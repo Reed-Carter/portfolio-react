@@ -47,11 +47,11 @@ const About = () => {
           </p>
           <h2 className='text-header'>Coding School: </h2>
           <p className='aboutText'>
-            After my trek, I decided to try something new and learn to code. So, I enrolled in a coding bootcamp to learn data engineering. Since completing the coding bootcamp, I have honed my skills in data engineering, including proficiency in Python, SQL, Pandas, BigQuery, Airflow, Spark, Looker Studio, DBT, data modeling, data management, and data manipulation. I have also developed a solid foundation in statistical analysis, machine learning, and programming languages such as Python and SQL. I have worked on several projects, including the development of a weather forecasting machine learning model that created a 10-day forecast for various cities around the US, and an ETL pipeline that normalized airline ticket information using Python and Pandas to create a relational database in BigQuery.
+            After my trek, I decided to try something new and learn to code. So, I enrolled in a coding bootcamp to learn data engineering. Since completing the coding bootcamp, I have honed my skills in data engineering, including proficiency in Python, SQL, Pandas, BigQuery, Airflow, Spark, Looker Studio, DBT, data modeling, data management, and data manipulation. I have also developed a solid foundation in statistical analysis, machine learning, and programming languages such as Python and SQL. I have worked on several projects, including the development of a weather forecasting machine learning model that created a 10-day forecast for various cities around the US, an ETL pipeline that normalized airline ticket information using Python and Pandas to create a relational database in BigQuery and even scraped and arranged hundreds of thousands of contacts into neat and organized tables to input into a CRM for targeting marketing purposes for the startup SignedPic.
           </p>
           <h2 className='text-header'>Contact me: </h2>
           <p className='aboutText'>
-            Thank you for taking the time to get to know me, and if you think theres an opportunitty for me to contribute to your team or project in anyway id love to hear about it!
+            Anyway, If you think theres an opportunitty for me to contribute to your team or project in anyway id love to hear about it. Thanks for getting to know me!
           </p>
         </div>
           <div className="portrait-pic">
