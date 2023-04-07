@@ -35,7 +35,7 @@ const About = () => {
           </p>
           <h2 className='text-header'>The Peace Corps: </h2>
           <p className='aboutText' align="LEFT">
-            After earning a degree in Biology from Stockton University, I decided to embark on an adventure by joining the Peace Corps. I spent two years in Tanzania, where I taught math and science at Kitandililo secondary school and was awarded/managed a grant to fund a dormitory for girls to access education. Immersing myself in the Tanzanian culture also gave me the perfect opportunity to learn Swahili, which has felt very similar to learning to code!
+            After earning a degree in Biology from Stockton University, I decided to embark on an adventure by joining the Peace Corps. I spent two years in Tanzania, where I taught math and science at Kitandililo secondary school and was awarded/managed a grant to fund a dormitory so that 40 high-school aged girls could have access to an education. Immersing myself in the Tanzanian culture also gave me the perfect opportunity to learn Swahili, which has felt very similar to learning to code!
           </p>
           <h2 className='text-header'>Graduate School and working as a wilderness guide: </h2>
           <p className='aboutText'>
