@@ -22,7 +22,7 @@
       position: relative;
       flex: 1 1 20%;
       height: 400px;
-      overflow:scroll;
+      overflow:hidden;
       border-radius: 10px;
       max-width: calc(25% - 10px);
 
@@ -130,6 +130,7 @@
         .image-box {
             height: 200px;
             min-width: calc(50% - 10px);
+            overflow: auto;
         
 
             .content {
