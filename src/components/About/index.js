@@ -32,27 +32,26 @@ const About = () => {
             </h1>
             <h2 className='text-header'>Introduction: </h2>
             <p className='aboutText'>
-              Hello, my name is Reed and I'm a data engineer who took an unconventional path to get here. Though I'm passionate about coding and everything data-related, my journey has been anything but typical.
-            </p>
+              Hey there! I'm Reed, and I've got a bit of an unconventional story for a data engineer. My journey to this career hasn't been a straight line, but each experience along the way has helped me develop skills and perspectives that I bring to the table as a data professional.            </p>
             <h2 className='text-header'>The Peace Corps: </h2>
             <p className='aboutText' align="LEFT">
-              After earning a degree in Biology from Stockton University, I decided to embark on an adventure by joining the Peace Corps. I spent two years in Tanzania, where I taught math and science at Kitandililo secondary school and was awarded/managed a grant to fund a dormitory so that 40 high-school aged girls could have access to an education. Immersing myself in the Tanzanian culture also gave me the perfect opportunity to learn Swahili, which has felt very similar to learning to code!
+              After college, I wasn't sure what direction I wanted to take, so I decided to join the Peace Corps and go on an adventure. I spent two years teaching math and science at a secondary school in Tanzania, and it was an incredible experience. One of my proudest accomplishments during my time there was securing a grant to fund a dormitory for 40 girls so they could access education. I also learned Swahili, which was a challenging but rewarding process that actually reminds me a lot of learning to code!
             </p>
             <h2 className='text-header'>Graduate School and working as a wilderness guide: </h2>
             <p className='aboutText'>
-              Following my experience in Tanzania, I pursued a Master's degree in Public Health at The Arctic University of Norway - the most northern university in the world! During my degree, my thesis work took me to The Republic of Georgia, where I collaborated with their National Center for Disease Control to analyze their birth registry in order to determine if teenage mothers were recieving adequate antenatal care. I then moved to an island called Sitka in South East Alaska to work for a hospital in the behavioral health department where I was a wilderness guide for at-risk youth. 
+              After Tanzania, I pursued a Master's degree in Public Health in Norway, where I focused on global health issues. For my thesis, I collaborated with the National Center for Disease Control in Georgia to analyze their birth registry and evaluate antenatal care for teenage mothers. Later, I moved to Sitka, Alaska, to work as a wilderness guide for at-risk youth. Both of these experiences taught me the value of being adaptable and creative in finding solutions to complex problems.
             </p>
             <h2 className='text-header'>The Pacific Crest Trail: </h2>
             <p className='aboutText'>
-              The real adventure began when I decided to hike the Pacific Crest Trail. This trail spans over 2,500 miles from the border of Mexico to Canada, passing through California, Oregon, and Washington. The trail offered a diverse range of landscapes, including deserts, mountains, and forests, and it took me about five months to complete!
+              One of the most challenging and rewarding experiences of my life was hiking the Pacific Crest Trail, which spans over 2,500 miles from Mexico to Canada. The trail took me through deserts, mountains, and forests, and it was a lesson in persistence and resilience. It also gave me an opportunity to disconnect from technology and connect with nature.
             </p>
             <h2 className='text-header'>Coding School: </h2>
             <p className='aboutText'>
-              After my trek, I decided to try something new and learn to code. So, I enrolled in a coding bootcamp to learn data engineering. Since completing the coding bootcamp, I have honed my skills in data engineering, including proficiency in Python, SQL, Pandas, BigQuery, Airflow, Spark, Looker Studio, DBT, data modeling, data management, and data manipulation. I have also developed a solid foundation in statistical analysis, machine learning, and programming languages such as Python and SQL. I have worked on several projects, including the development of a weather forecasting machine learning model that created a 10-day forecast for various cities around the US, an ETL pipeline that normalized airline ticket information using Python and Pandas to create a relational database in BigQuery and even scraped and arranged hundreds of thousands of contacts into neat and organized tables to input into a CRM for targeting marketing purposes for the startup SignedPic.
+              After my trek, I decided to pivot and try something new, so I enrolled in a coding bootcamp to learn data engineering. It was a challenging but exciting experience, and since then, I've developed proficiency in Python, SQL, Pandas, BigQuery, Airflow, Spark, Looker Studio, DBT, data modeling, data management, and data manipulation. I've also worked on several projects, including developing a weather forecasting machine learning model that created a 10-day forecast for various cities around the US, building an ETL pipeline to normalize airline ticket information, and organizing hundreds of thousands of contacts for a startup's CRM system to improve their targetted marketing campaign.
             </p>
             <h2 className='text-header'>Contact me: </h2>
             <p className='aboutText'>
-              Anyway, If you think theres an opportunitty for me to contribute to your team or project in anyway id love to hear about it. Thanks for getting to know me!
+              While my path to data engineering may have been unconventional, each experience has taught me valuable skills and perspectives that I bring to the table as a data professional. I'm always eager to continue learning and applying my skills to new challenges, so if you think I could be a good fit for your team or project, I'd love to chat about it!
             </p>
           </div>
             <div className="portrait-pic">
