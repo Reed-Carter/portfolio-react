@@ -1,4 +1,6 @@
 import './index.scss'
+import { Link } from 'react-router-dom';
+import ResumeFile from '../../assets/resume/Reed_Carter_Resume.pdf';
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -12,6 +14,7 @@ import {
   faSuitcase,
   faBars,
   faClose,
+  faDownload,
 } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from 'react-router-dom'
 
@@ -51,6 +54,15 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
+        <Link to={{ pathname: ResumeFile }}
+          className='download-link'
+          target="_blank"
+          onClick={() => setShowNav(false)}
+          download="Reed_Carter_Resume.pdf"
+          rel="noopener noreferrer"
+        >
+        <FontAwesomeIcon icon={faDownload} color="#4d4d4e" />
+        </Link>
         <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
           icon={faClose}

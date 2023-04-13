@@ -96,6 +96,12 @@
       }
     }
 
+    a.download-link {
+      &:after {
+        content: 'DOWNLOAD_RESUME';
+      }
+    }
+
     a.active {
       svg {
         color: #ffd700;
