@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from './logo'
 import Loader from 'react-loaders';
+import ResumeFile from '../../assets/resume/Reed_Carter_Resume.pdf';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -31,9 +32,7 @@ const Home = () => {
         <span className={letterClass}>H</span>
         <span className={`${letterClass} _12`}>e</span>
         <span className={`${letterClass} _13`}>y</span>
-        <span className={`${letterClass} _14`}>o</span>
-        <span className={`${letterClass} _15`}>o</span>
-        <span className={`${letterClass} _16`}>,</span>
+        <span className={`${letterClass} _13`}>!</span>
         <br />
         <span className={`${letterClass} _16`}>I</span>
         <span className={`${letterClass} _17`}>'</span>
@@ -51,6 +50,7 @@ const Home = () => {
         <Link to="portfolio" className='flat-button'>MY PROJECTS</Link>
         <Link to="about" className='flat-button'>ABOUT ME</Link>
         <Link to="contact" className='flat-button'>CONTACT ME</Link>
+        <Link to={{ pathname: ResumeFile }} target="_blank" className='flat-button' download>DOWNLOAD RESUME</Link>
       </div>
       <Logo /> 
     </div>
