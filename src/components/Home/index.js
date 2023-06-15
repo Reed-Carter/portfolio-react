@@ -29,11 +29,6 @@ const Home = () => {
     <div className="container home-page">
       <div className="text-zone">
         <h1>
-        <span className={letterClass}>H</span>
-        <span className={`${letterClass} _12`}>e</span>
-        <span className={`${letterClass} _13`}>y</span>
-        <span className={`${letterClass} _13`}>!</span>
-        <br />
         <span className={`${letterClass} _16`}>I</span>
         <span className={`${letterClass} _17`}>'</span>
         <span className={`${letterClass} _18`}>m</span>
