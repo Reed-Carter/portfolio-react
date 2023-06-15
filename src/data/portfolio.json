@@ -3,21 +3,23 @@
     {
       "cover": "/portfolio/1/world_gas_price_gif.gif",
       "title": "Global Cost of Living",
-      "description": "A team project where we used Python to analyze global cost of living using various metrics",
+      "description": "Python was used to create an interactive world map to display gas prices around the world in Nov 2022",
+      "git_pages_url": "https://reed-carter.github.io/Global-Cost-of-Living/",
       "url": "https://github.com/Reed-Carter/Emissions-by-Country"
     },
 
     {
       "cover": "/portfolio/1/weather_visualization.gif",
       "title": "Weather Visualizations",
-      "description": "Webscraping ETL using data from the US National Weather Service",
+      "description": "Webscraping ETL pipeline to compare climate data between cities",
+      "weather_visualizations_looker_studio": "https://lookerstudio.google.com/reporting/a89d9167-97f7-4bfa-8d0f-df683482449e",
       "url": "https://github.com/Reed-Carter/team-week3"
     },
 
     {
       "cover": "/portfolio/1/airport_code.png",
       "title": "Airline Relational Database Design",
-      "description": "ETL pipeline was developed in order to normalize airline ticket information into facts and dimension tables and loads the tables into a BigQuery dataset",
+      "description": "ETL pipeline to normalize airline ticket information and loads the tables into BigQuery",
       "url": "https://github.com/Reed-Carter/Airport_Data_Model"
     },
 
