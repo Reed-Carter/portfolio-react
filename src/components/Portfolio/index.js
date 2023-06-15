@@ -35,12 +35,12 @@ const Portfolio = () => {
                                   <h4 className="description">{port.description}</h4>
                                     {idx === 0 ? (
                                         <button className="btn" onClick={() => window.open(port.git_pages_url)}>
-                                            see project
+                                            see map
                                         </button>
                                     ) : null}
                                     {idx === 1 ? (
                                         <button className="btn" onClick={() => window.open(port.weather_visualizations_looker_studio)}>
-                                            see project
+                                            see visualizations
                                         </button>
                                     ) : null}
 
