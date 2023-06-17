@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -39,7 +40,7 @@ const About = () => {
             <h2 className='text-header'>Data Stack Academy in partnership with Epicodus: </h2>
             During an recent  6 month coding boot camp, I have furthered my proficiency in a wide range of tools and technologies, including Python, SQL, Pandas, BigQuery, Airflow, Spark, Looker Studio, DBT, data modeling, and data management. I am also experienced with Looker Studio allowing me to create compelling and insightful visualizations that bring data to life using interactive dashboards, enabling both layman and company stakeholders to make informed decisions.
             
-            Check out some of my recent work <a href="/Portfolio"style={{color: '#ffd700'}}>here</a>.<br></br><br />
+            Check out some of my recent work <Link to="/portfolio" style={{color: '#ffd700'}}>here</Link>.<br></br><br />
 
             <h2 className='text-header'>Working at the startup SignedPic: </h2>
             I made a significant impact on the startup Signedpic by effectively managing their CRM system and successfully gathering and organizing hundreds of thousands of contacts for their targeted marketing campaign. This experience not only enhanced my attention to detail and problem-solving abilities but also showcased my ability to organize extensive data sets with precision. As a perpetual learner, I actively seek out fresh challenges and opportunities to leverage my expertise in practical settings. I believe everything is 'figureoutable' <br></br><br></br>
