@@ -34,18 +34,15 @@ const About = () => {
             <h2 className='text-header'>Introduction: </h2>
             I'm a data engineer with a unique background that sets me apart from other candidates. I bring new perspective and real life experience to the field and can apply it to all my endeavors and projects.<br></br>
             <h2 className='text-header'>Master's in Public Health: </h2>
-            During my Master's program in Public Health at The University of Tromsø, I had the opportunity to work alongside the Republic of Georgia's Center for Disease Control. This experience enabled me to develop expertise in the analysis of intricate health data, identifying noteworthy trends and insights for the Georgian healhcare system. By combining my skills in data engineering with my understanding of public health and statistical analysis I bring a unique perspective and the ability to deliver meaningful outcomes. See my research <a href="https://munin.uit.no/handle/10037/18794" target="_blank" rel="noopener noreferrer" style={{color: '#ffd700'}}>here</a>!<br></br>
+            During my Master's program in Public Health at The University of Tromsø, I had the opportunity to work alongside the Republic of Georgia's Center for Disease Control. This experience enabled me to develop expertise in the analysis of intricate health data, identifying noteworthy trends and insights for the Georgian healhcare system. By combining my skills in data engineering with my understanding of public health and statistical analysis I bring a unique perspective and the ability to deliver meaningful outcomes. See my research <a href="https://munin.uit.no/handle/10037/18794" target="_blank" rel="noopener noreferrer" style={{color: '#ffd700'}}>here</a>.<br></br><br />
 
             <h2 className='text-header'>Data Stack Academy in partnership with Epicodus: </h2>
-            During an recent  6 month coding boot camp, I have furthered my proficiency in a wide range of tools and technologies, including Python, SQL, Pandas, BigQuery, Airflow, Spark, Looker Studio, DBT, data modeling, and data management. I am also experienced with Looker Studio allowing me to create compelling and insightful visualizations that bring data to life using interactive dashboards, enabling both layman and company stakeholders to make informed decisions.<br></br>
+            During an recent  6 month coding boot camp, I have furthered my proficiency in a wide range of tools and technologies, including Python, SQL, Pandas, BigQuery, Airflow, Spark, Looker Studio, DBT, data modeling, and data management. I am also experienced with Looker Studio allowing me to create compelling and insightful visualizations that bring data to life using interactive dashboards, enabling both layman and company stakeholders to make informed decisions.
+            
+            Check out some of my recent work <a href="/Portfolio"style={{color: '#ffd700'}}>here</a>.<br></br><br />
 
             <h2 className='text-header'>Working at the startup SignedPic: </h2>
-            Additionally, my experience in organizing vast amounts of data for a startup's CRM system has honed my attention to detail and problem-solving skills. I am a continuous learner, and always seeking new challenges and opportunities to apply my expertise. I believe everything is 'figureoutable' <br></br><br></br>
-
-            View my portfolio page to see some recent work.
-
-            
-            
+            I made a significant impact on the startup Signedpic by effectively managing their CRM system and successfully gathering and organizing hundreds of thousands of contacts for their targeted marketing campaign. This experience not only enhanced my attention to detail and problem-solving abilities but also showcased my ability to organize extensive data sets with precision. As a perpetual learner, I actively seek out fresh challenges and opportunities to leverage my expertise in practical settings. I believe everything is 'figureoutable' <br></br><br></br>
             </p>
               {/* Hey there! I'm Reed, and I've got a bit of an unconventional story for a data engineer. My journey to this career hasn't been a straight line, but each experience along the way has helped me develop skills and perspectives that I bring to the table as a data professional.            </p>
             <h2 className='text-header'>The Peace Corps: </h2>
