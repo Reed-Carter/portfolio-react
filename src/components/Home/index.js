@@ -10,7 +10,7 @@ import ResumeFile from '../../assets/resume/Reed_Carter_Resume.pdf';
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['e', 'e','d', ' ', 'C','a','r','t','e','r', ',']
-  const jobArray = ['A', ' ','D','a','t','a',' ','E','n','g','i','n','e','e','r','.']
+  const jobArray = ['A', ' ','D','a','t','a',' ','E','n','g','i','n','e','e','r']
 
   useEffect(() => {
         
