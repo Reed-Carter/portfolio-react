@@ -11,20 +11,32 @@
   z-index: 0;
 }
 
+
 @media screen and (max-width: 1200px) {
-
-  .solid-logo {
-    position:initial;
-    top: auto;
-    right: auto;
-    bottom:auto;
-    left: 0;
-    margin: auto;
-    width: 10%;
-    opacity: 0;
-    transform: rotateZ(30deg) !important;
-    z-index: 1;
-
+  .logo-container {
+    position: relative;
   }
 
+  .solid-logo {
+    position: relative;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-container {
+    position: relative;
+  }
+
+  .solid-logo {
+    position: relative;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    margin-left: 40%;
+  }
 }
