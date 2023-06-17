@@ -44,8 +44,8 @@ const Home = () => {
         <h2>Data Engineer / Data Scientist</h2>
         <Link to="portfolio" className='flat-button'>PROJECTS</Link>
         <Link to="about" className='flat-button'>ABOUT ME</Link>
-        <Link to="contact" className='flat-button'>CONTACT ME</Link>
         <Link to={{ pathname: ResumeFile }} target="_blank" className='flat-button' rel="noopener noreferrer" download>DOWNLOAD RESUME</Link>
+        <Link to="contact" className='flat-button'>CONTACT</Link>
       </div>
       <Logo /> 
     </div>
