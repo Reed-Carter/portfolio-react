@@ -50,7 +50,7 @@ const Contact = () => {
               />
             </h1>
             <p>
-              Please fill out the form or give me a call and ill get back to you as soon as possible. I look forward to hearing from you! <br />
+              Please contact me at the email or phone number listed below. I look forward to hearing from you! <br /><br />
               <span className='words'>Email:</span> reedandrew18@gmail.com <span className='words'>Phone:</span> +1 (609)-741-9934
             </p>
             <div className="contact-form">
