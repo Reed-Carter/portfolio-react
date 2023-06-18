@@ -9,8 +9,8 @@ import ResumeFile from '../../assets/resume/Reed_Carter_Resume.pdf';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['e', 'e','d', ' ', 'C','a','r','t','e','r', ',']
-  const jobArray = ['A', ' ','D','a','t','a',' ','E','n','g','i','n','e','e','r']
+  const nameArray = ['R','e', 'e','d', ' ', 'C','a','r','t','e','r', ',']
+  const jobArray = ['D','a','t','a',' ','E','n','g','i','n','e','e','r']
 
   useEffect(() => {
         
@@ -29,10 +29,10 @@ const Home = () => {
     <div className="container home-page">
       <div className="text-zone">
         <h1>
-        <span className={`${letterClass} _16`}>I</span>
+        {/* <span className={`${letterClass} _16`}>I</span>
         <span className={`${letterClass} _17`}>'</span>
-        <span className={`${letterClass} _18`}>m</span>
-        <img src={LogoTitle} alt='developer' />
+        <span className={`${letterClass} _18`}>m</span> */}
+        {/* <img src={LogoTitle} alt='developer' /> */}
         <AnimatedLetters letterClass={letterClass}
         strArray={nameArray}
         idx={15} />
@@ -41,7 +41,7 @@ const Home = () => {
         strArray={jobArray}
         idx={20} />
         </h1>
-        <h2>Data Engineer / Data Scientist</h2>
+        <h2>Data Scientist</h2>
         <Link to="portfolio" className='flat-button'>PROJECTS</Link>
         <Link to="about" className='flat-button'>ABOUT ME</Link>
         <Link to={{ pathname: ResumeFile }} target="_blank" className='flat-button' rel="noopener noreferrer" download>DOWNLOAD RESUME</Link>
