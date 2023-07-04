@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
-import LogoS from '../../../assets/images/professional_pic.png'
+import LogoS from '../../../assets/images/professional_pic2.png'
 import './index.scss'
 
 const Logo = () => {
