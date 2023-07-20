@@ -33,7 +33,7 @@ const About = () => {
             </h1>
             <p className='aboutText'>
             <h2 className='text-header'>Introduction: </h2>
-            I'm a data engineer with a unique background that sets me apart from other candidates. I bring new perspectives and real life experience to the field and can apply it to all my endeavors and projects.<br></br>
+            I'm a data engineer with a unique background that sets me apart from other candidates. I bring new perspectives and real life experience to the field and can apply it to all my endeavors and projects.<br></br><br></br>
             <h2 className='text-header'>Master's in Public Health: </h2>
             During my Master's program in Public Health at The University of Tromsø, I had the opportunity to work alongside the Republic of Georgia's Center for Disease Control. This experience enabled me to develop expertise in the analysis of intricate health data, identifying noteworthy trends and insights for the Georgian healthcare system. By combining my skills in data engineering with my understanding of public health and statistical analysis I bring a unique perspective and the ability to deliver meaningful outcomes. See my research <a href="https://munin.uit.no/handle/10037/18794" target="_blank" rel="noopener noreferrer" style={{color: '#ffd700'}}>here</a>.<br></br><br />
 
