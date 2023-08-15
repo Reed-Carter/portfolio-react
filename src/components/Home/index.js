@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from './logo'
 import Loader from 'react-loaders';
-import ResumeFile from '../../assets/resume/Reed_Carter_Resume_2.pdf';
+import ResumeFile from '../../assets/resume/Reed_Carter_Resume_.pdf';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
