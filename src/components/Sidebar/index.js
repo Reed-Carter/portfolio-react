@@ -1,6 +1,6 @@
 import './index.scss'
 import { Link } from 'react-router-dom';
-import ResumeFile from '../../assets/resume/Reed_Carter_Resume_.pdf';
+import ResumeFile from '../../assets/resume/Reed_Carter_Resume__.pdf';
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
